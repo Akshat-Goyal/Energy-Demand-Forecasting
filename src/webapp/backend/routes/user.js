@@ -1,11 +1,14 @@
 const router = require("express").Router();
 const User = require("./../models/user");
 const nodemailer = require("nodemailer");
+
+// add gmail in user and password in pass
+// add gmail in line no. 117 in from.
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "energyconsumptiondepartment@gmail.com",
-    pass: "Hello@123",
+    user: "",
+    pass: "",
   },
 });
 
@@ -111,7 +114,7 @@ router.route("/form").post(function (req, res) {
           text += "\nEmail: " + user["email"];
           text += "\nUser Type: " + user["userType"];
           let mailOptions = {
-            from: "energyconsumptiondepartment@gmail.com",
+            from: "",
             to: to,
             subject: req.body.subject,
             attachments: [

@@ -2,11 +2,14 @@ const { spawn } = require("child_process");
 const User = require("./user");
 const Data = require("./data");
 const nodemailer = require("nodemailer");
+
+// add gmail in user and password in pass
+// add gmail in line no. 57 in from.
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "energyconsumptiondepartment@gmail.com",
-    pass: "Hello@123",
+    user: "",
+    pass: "",
   },
 });
 
@@ -51,7 +54,7 @@ const notify = () => {
                 return "No user interested in notification!!";
               }
               let mailOptions = {
-                from: "energyconsumptiondepartment@gmail.com",
+                from: "",
                 to: to,
                 subject: "today's expected energy consumption",
                 text:

@@ -42,7 +42,7 @@
 
 ## Running the code
 
-Run Express:
+- Run Express:
 
 ```
 cd backend/
@@ -50,12 +50,18 @@ npm install
 npm start
 ```
 
-Run React:
+- Run React:
 
 ```
 cd fronted/
 npm install/
 npm start
 ```
+
+- Add email id in backend/routes/user.js and backend/models/task.js to use feedback and notification features.
+
+- Add open weather api key in the frontend/src/components/view-weather.component.js to use weather feature.
+
+- Add apikey and spreadsheetid in frontend/src/config.js to see live data on dashboard.
 
 ---
