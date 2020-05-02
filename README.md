@@ -8,12 +8,12 @@
 
 # Folder Structure
 
--
+- data - contains the past hourly energy consumption data of the company.
 
-Suitable Forecasting Algorithms need to be used.
+- src - contains the ML models and MERN based webapp.
 
-1. Knowledge of machine learning
-2. To learn programming languages, HTML, Angular JS, Python etc.
-3. Data preprocessing - Cleaning, missing data, outliers removal, normalization etc.
-4. Feature Engineering, Identification of right algorithm for forecasting, Python Implementation
-5. Development Front end, application deployment, testing and results validation
+- documents - contains the design, project plan and other docs.
+
+- diagrams - contains the different uml diagrams.
+
+- tests - contains the api testing python codes.
