@@ -28,6 +28,10 @@ MERN based web application developed for the company, based on Machine Learning 
 
 - view users' list feature
 
+## Demo Video Link
+
+https://drive.google.com/drive/u/0/folders/1y4Kb3MpdfWA_2md6kxr6uaaobCtNDacq
+
 # Folder Structure
 
 - data - contains the past hourly energy consumption data of the company.
