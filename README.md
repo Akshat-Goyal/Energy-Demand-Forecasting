@@ -34,7 +34,7 @@
 
 ## Demo Video Link
 
-https://drive.google.com/drive/u/0/folders/1y4Kb3MpdfWA_2md6kxr6uaaobCtNDacq
+https://drive.google.com/file/d/1yFW5-8xb1EmC573gx1mfL2XV0RDNAtEk/view?usp=sharing
 
 # Folder Structure
 
