@@ -1,10 +1,38 @@
-# Energy Demand Forecasting APP
+# Energy Demand Forecasting App
 
 ## About
 
-- Web application based on MERN stack - MongoDB, Express.js, React.js, and Node.js.
+- MERN based web application developed for the companies to manage their energy consumption.
 
-- The app predicts the future energy consumption based on the given past hourly energy consumption data of the complex.
+- predicts the future energy consumption of the commercial complex by using Machine Learning - Facebook's Prophet model
+
+## Features
+
+- login / register as owner, finance team, maintenance team.
+
+- dashboard showing the analysis of live and real data of the energy consumption of the complex.
+
+- predicts the future energy consumption of the complex.
+
+- graphical analysis of predicted energy consumption.
+
+- download option for the predicted values and graphs.
+
+- shows the 5 day future weather prediction.
+
+- caching of the predicted data for fast queries.
+
+- customer care feature to ask queries from the maintenance team.
+
+- notification feature which emails users daily about the excepted today's energy consumption and other stats.
+
+- profile update feature
+
+- view users' list feature
+
+## Demo Video Link
+
+https://drive.google.com/drive/u/0/folders/1y4Kb3MpdfWA_2md6kxr6uaaobCtNDacq
 
 ## Requirements:
 
@@ -60,8 +88,8 @@ npm start
 
 - Add email id in backend/routes/user.js and backend/models/task.js to use feedback and notification features.
 
-- Add open weather api key in the frontend/src/components/view-weather.component.js to use weather feature.
+- Add your open weather api key and city id in the frontend/src/components/view-weather.component.js to use weather feature.
 
-- Add apikey and spreadsheetid in frontend/src/config.js to see live data on dashboard.
+- Add your apikey and spreadsheetid in frontend/src/config.js to see live data on dashboard. Check frontend/src/components/dashboard-sheet.csv for data format.
 
 ---

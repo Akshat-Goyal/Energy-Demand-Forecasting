@@ -4,9 +4,9 @@ import ls from "local-storage";
 import { Alert } from "react-bootstrap";
 import "../css/SideNavbar.css";
 
-// fill id and appid, replace ??? and assign this url string to weatherURL
-// "http://api.openweathermap.org/data/2.5/forecast?id=???&appid=???&units=imperial";
-const weatherURL = null;
+// appid is the open weather api key, id is the city id
+const weatherURL =
+  "http://api.openweathermap.org/data/2.5/forecast?id=1269843&appid=95e286bae5647877dbb924f3779736a8&units=imperial";
 
 export default class Weather extends Component {
   state = {

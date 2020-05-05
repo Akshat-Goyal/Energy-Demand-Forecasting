@@ -1,8 +1,12 @@
-# Energy Demand Forecasting APP
+# Energy Demand Forecasting Project
 
 ## About
 
-MERN based web application developed for the company, based on Machine Learning to predict the future energy consumption of the commercial complex by using Facebook's Prophet model developed using agile development model.
+- MERN based web application developed for the companies to manage their energy consumption.
+
+- This project is developed using agile development model.
+
+- predicts the future energy consumption of the commercial complex by using Machine Learning - Facebook's Prophet model
 
 ## Features
 
